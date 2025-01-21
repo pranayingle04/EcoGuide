@@ -1,6 +1,12 @@
 import streamlit as st # Import python packages
 from snowflake.snowpark.context import get_active_session
 
+from snowflake_session import create_snowflake_session
+
+# Create a session
+session = create_snowflake_session()
+
+
 from snowflake.cortex import Complete
 from snowflake.core import Root
 
