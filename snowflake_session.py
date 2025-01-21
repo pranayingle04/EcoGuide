@@ -8,7 +8,7 @@ def create_snowflake_session():
         "account": "ivoklic-wyb12201.US-WEST-OREGON.AWS",
         "user": "PranayIngle",
         "password": "Pranayi25#",
-        "role": "Public",
+        "role": "ACCOUNTADMIN",
         "warehouse": "COMPUTE_WH",
         "database": "SUSTAINABLITY_CORTEX_SEARCH_DOCS",
         "schema": "Data"
