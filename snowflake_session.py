@@ -5,10 +5,11 @@ def create_snowflake_session():
     Creates and returns a Snowflake session using predefined connection parameters.
     """
     connection_parameters = {
-        "account": "WYB12201",
+        "account": "ivoklic-wyb12201.US-WEST-OREGON.AWS",
         "user": "PranayIngle",
         "password": "Pranayi25#",
         "role": "Public",
+        "warehouse": "COMPUTE_WH",
         "database": "SUSTAINABLITY_CORTEX_SEARCH_DOCS",
         "schema": "Data"
     }
