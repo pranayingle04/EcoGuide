@@ -9,7 +9,6 @@ def create_snowflake_session():
         "user": "PranayIngle",
         "password": "Pranayi25#",
         "role": "Public",
-        "warehouse": "",
         "database": "SUSTAINABLITY_CORTEX_SEARCH_DOCS",
         "schema": "Data"
     }
